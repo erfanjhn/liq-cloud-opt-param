@@ -1,7 +1,6 @@
 # liq_water_cloud_param
 
-
-This project allows the visualisation of the fits used the parameterizations included in the paper  submitted to JAMES journal  E.Jahangir et al. 
+This project allows the verification of the fits used to derive the parameterizations included in the paper "Uncertainty of SW cloud radiative effect in atmospheric models due to the parameterization of liquid cloud optical properties" (E.Jahangir et al.) submitted to JAMES journal.
 XXX files contain the coefficients of the fits explained in the section 3.3 of the paper. 
 The reference Single Scattering Properties calculated with the Lorenz-Mie method for 4 shapes of Lognormal distribution function and with 9 spectral averaging methods on 80 effective radii ranging between 1 and 50 micro meters and tabulated in netCDF file called Ref_Log.nc.
 This netCDF file encompasses the three SSPs:Qext, g and Single scattering albedo(SSA)
