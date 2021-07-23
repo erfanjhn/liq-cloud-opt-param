@@ -6,7 +6,7 @@ The reference Single Scattering Properties calculated with the Lorenz-Mie method
 
 #### This netCDF file encompasses the SSPs as variables:
 Qext, g and Single scattering albedo(SSA) derived for each of 9 spectral methods explained in section 3.2 of the article \
-#####Each of variables are defined by 3 attributes:
+##### Each of variables are defined by 3 attributes:
 effective radius (r_eff) with dimension of 80,Logarithmic function DSD shape (presented by "sigma") with dimension of 4
 and RRTMG bands (denoted by "band") having a deminesion of 16 (in the shortwave).
 
