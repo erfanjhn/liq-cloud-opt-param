@@ -12,8 +12,10 @@ effective radius (r_eff) with dimension of 80,Logarithmic function DSD shape (pr
 and RRTMG bands (denoted by "band") having a deminesion of 16 (in the shortwave).
 
 ## T1, T10, T20, R1, R10, R20, Thick and Thin
-These files correspond to the spectral averaging methods explained in the section 3.2 of the article.  
-### SigmaXX files
+These folders correspond to the spectral averaging methods explained in the section 3.2 of the article. Each of them contains 4 sub-folders  called:
+### SigmaXX
+representing the 4 shapes of Log distribution function.   
+
 This files contain the coefficients of the fits explained in the section 3.3 of the paper. 
 
 # How to use?: 
