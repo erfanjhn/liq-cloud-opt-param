@@ -1,4 +1,4 @@
-## liq_cloud_opt_param
+#### liq_cloud_opt_param
 
 This repository allows the verification of the fits used to derive the parameterizations included in the paper "Uncertainty of SW cloud radiative effect in atmospheric models due to the parameterization of liquid cloud optical properties" (E.Jahangir et al.) submitted to JAMES journal.
 XXX files contain the coefficients of the fits explained in the section 3.3 of the paper. 
