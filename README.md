@@ -17,7 +17,7 @@ These folders correspond to the spectral averaging methods explained in the sect
 XX representing the 4 shapes of Log distribution function.   
 The netCDF files called #### comprise the coefficients of the fits explained in the section 3.3 of the paper. In order to visualise the fits of SSPs, the user must apply the coeficinets from this netCDF file in the Eqs. 20-22 of the paper as follows:\
 1-Read the file with a desired netCDF reader and use 'coeff_sw' variable.
-If we call the netCDF file, "data", the coefficients required to interpret in a selected 'band' the SSPs are:
+If we call the netCDF file, "data", the coefficients required to interpret the SSPs in a selected 'band' are:
 
 ##### for Qext :
 p_ext2=data['coeff_sw'][band,16:22]        
@@ -36,9 +36,8 @@ p_SSA1=data['coeff_sw'][band, 6:11]
 
 
 
-As explained in section 3.3 of the paper the fits are performed on two parts of reference values. 
-
-1 and 2 suffixes for each of SSPs (p_XX1, p_XX2) indicate the corresponding coefficients to the first and second part of fits respectively.That means for the r_eff range lower(greater) than the cut_point tha coefficients having "1"("2") in suffix must be used.
+2-As explained in section 3.3 of the paper the fits are performed on two parts of reference values. 
+1 and 2 suffixes for each of SSPs (p_XX1, p_XX2) indicate the corresponding coefficients to the first and second part of fits respectively.That means for the r_eff range lower(greater) than the cut_point the coefficients having "1"("2") in suffix must be used.
 
 
 The cut-points for g and Qext are defined for each of 14 band as:\
