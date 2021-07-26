@@ -31,13 +31,13 @@ The cut-points for g and Qext are
 
 ##### for SSA:
 
-p_SSA2=data['coeff_sw'][band,22:27] 
+p_SSA2=data['coeff_sw'][band,22:27] \
 p_SSA1=data['coeff_sw'][band, 6:11]
 
 
 
 2-As explained in section 3.3 of the paper the fits are performed on two parts of reference values. 
-1 and 2 suffixes for each of SSPs (p_XX1, p_XX2) indicate the corresponding coefficients to the first and second part of fits respectively.That means for the r_eff range lower(greater) than the cut_point the coefficients having "1"("2") in suffix must be used.
+"1" and "2" suffixes for each of SSPs (p_XX1, p_XX2) indicate the corresponding coefficients to the first and second part of fits respectively.That means for the r_eff range lower(greater) than the cut_point the coefficients having "1"("2") in suffix must be used.
 
 
 The cut-points for g and Qext are defined for each of 14 band as:\
